@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
   origin: 'https://dobby-drive-c.vercel.app', 
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', 
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', 
   credentials: true, 
   optionsSuccessStatus: 204, 
   allowedHeaders: ['Content-Type', 'Authorization']
